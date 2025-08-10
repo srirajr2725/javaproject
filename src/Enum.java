@@ -11,7 +11,7 @@ enum days{
 public class Enum {
     public static void main(String[] args) {
 
-        System.out.println("hiiii");
+        System.out.println("from remote");
         days day=days.FRIDAY;
 //        System.out.println(day);
 //        for(days d:days.values())
