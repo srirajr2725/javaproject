@@ -2,7 +2,7 @@ import java.util.EnumSet;
 
 enum days{
 
-    MONDAY,TEUSDAY,WEDNSDAY,THURDSDAY,FRIDAY,SATURDAY,SUNDAY
+    MONDAY,TEUSDAY,WEDNSDAY,THURDSDAY,FRIDAY,SATURDAY,SUNDAY;
 
 
 }
@@ -11,6 +11,7 @@ enum days{
 public class Enum {
     public static void main(String[] args) {
 
+        System.out.println("hiiii");
         days day=days.FRIDAY;
 //        System.out.println(day);
 //        for(days d:days.values())
